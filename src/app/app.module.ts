@@ -5,12 +5,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { SupermanComponent } from './superman/superman.component';
-import { HomeComponent } from './home/home.component';
-import { HulkComponent } from './hulk/hulk.component';
-import { HomelanderComponent } from './homelander/homelander.component';
+import { SupermanComponent } from './Components/superman/superman.component';
+import { HomeComponent } from './Components/home/home.component';
+import { HulkComponent } from './Components/hulk/hulk.component';
+import { HomelanderComponent } from './Components/homelander/homelander.component';
 
-
+/**
+ * declaracion de componentes
+ */
 @NgModule({
   declarations: [
     AppComponent,

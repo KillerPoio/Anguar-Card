@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { HomelanderComponent } from './homelander/homelander.component';
-import { HulkComponent } from './hulk/hulk.component';
-import { SupermanComponent } from './superman/superman.component';
+import { HomeComponent } from './Components/home/home.component';
+import { HomelanderComponent } from './Components/homelander/homelander.component';
+import { HulkComponent } from './Components/hulk/hulk.component';
+import { SupermanComponent } from './Components/superman/superman.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
