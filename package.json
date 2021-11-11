@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "cordova": "ng build --base-href . --output-path cordova/www",
+    "cordova-run": "npm run cordova $$ cd cordova && cordova run android"	
   },
   "private": true,
   "dependencies": {
@@ -20,6 +22,7 @@
     "@angular/router": "~13.0.0",
     "@popperjs/core": "^2.10.2",
     "bootstrap": "^5.1.3",
+    "cordova": "^10.0.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.0",
     "rxjs": "~7.4.0",
